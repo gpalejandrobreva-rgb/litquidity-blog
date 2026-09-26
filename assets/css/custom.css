@@ -1,3 +1,6 @@
+/* Google Fonts Fallback for IvyPresto Headline */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap');
+
 /* Local IvyPresto Headline Fonts */
 @font-face {
   font-family: "ivypresto-headline";
@@ -16,10 +19,7 @@
   font-weight: 400;
 }
 
-﻿/* Custom Enhancements and Animations for Litquidity Clone */
-
-/* Google Fonts Fallback for IvyPresto Headline */
-@import url(https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap);
+/* Custom Enhancements and Animations for sideeconomy */
 
 /* Ensure body transition is responsive */
 body {
@@ -152,9 +152,26 @@ html.state--subscription-overlay-open .subscription-overlay_mask {
   transition: opacity 0.3s ease, visibility 0.3s;
 }
 
-
 /* Brand Logo Styling for sideeconomy */
-.site-header_logo .logo, .site-footer_logo .logo { display: inline-flex; align-items: center; text-decoration: none; color: var(--color-darkest, #0e1b16); }
-.site-footer_logo .logo { color: var(--color-white, #ffffff) !important; }
-.brand-logo-text { font-family: var(--font-secondary), "Newsreader", Georgia, serif; font-size: 2.15rem; font-weight: 700; letter-spacing: -0.04em; line-height: 1; color: inherit; display: inline-block; vertical-align: middle; text-transform: lowercase; }
-@media (max-width: 64rem) { .brand-logo-text { font-size: 1.75rem; } }
+.site-header_logo .logo, .site-footer_logo .logo {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-darkest, #0e1b16);
+}
+
+.site-footer_logo .logo {
+  color: var(--color-white, #ffffff) !important;
+}
+
+.logo svg {
+  display: block;
+  height: 2.375rem;
+  width: auto;
+  max-width: none;
+}
+
+.site-footer_logo .logo svg {
+  height: 3.5625rem;
+  width: auto;
+}

@@ -1,6 +1,6 @@
-﻿# Tema Litquidity — Duplicación Exacta 100% para Blog
+# Tema sideeconomy — Duplicación Exacta 100% para Blog
 
-Tema editorial y financiero duplicado con **100% de fidelidad visual, tipográfica, interactiva y estructural** a partir de [Litquidity.co](https://litquidity.co/?ref=land-book.com).
+Tema editorial y financiero para **sideeconomy**, duplicado con **100% de fidelidad visual, tipográfica, interactiva y estructural** a partir del diseño de [Litquidity](https://litquidity.co/?ref=land-book.com).
 
 Diseñado para un blog de alto impacto sobre finanzas, negocios, tecnología, startups, cripto o newsletter editorial.
 
@@ -15,11 +15,11 @@ quick-noether/
 ├── article.html                 # Lectura de Post Individual: Breadcrumbs, autor, botones de compartir, RTE
 ├── assets/
 │   ├── css/
-│   │   ├── main.css             # Estilos completos y exactos de Litquidity (tokens de color, tipografía, layouts)
+│   │   ├── main.css             # Estilos completos y exactos de sideeconomy (tokens de color, tipografía, layouts)
 │   │   └── custom.css           # Optimizaciones, animaciones flotantes [data-float] y fallbacks
 │   ├── js/
 │   │   ├── main.js              # Controlador interactivo: Reloj de NY en vivo, Marquee, Modal, Menú móvil
-│   │   └── litquidity-bundle.js # Bundle original completo de Litquidity con librerías auxiliares
+│   │   └── sideeconomy-bundle.js # Bundle original completo de sideeconomy con librerías auxiliares
 │   └── images/
 │       ├── bg-pattern-15.svg    # Textura dot-grid (15% opacidad)
 │       ├── bg-pattern-20.svg    # Textura dot-grid (20% opacidad)

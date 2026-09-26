@@ -1,3 +1,21 @@
+/* Local IvyPresto Headline Fonts */
+@font-face {
+  font-family: "ivypresto-headline";
+  src: url("../fonts/ivypresto-regular.woff2") format("woff2"),
+       url("../fonts/ivypresto.otf") format("opentype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ivypresto-headline";
+  src: url("../fonts/ivypresto-italic.woff2") format("woff2");
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+}
+
 ﻿/* Custom Enhancements and Animations for Litquidity Clone */
 
 /* Google Fonts Fallback for IvyPresto Headline */
